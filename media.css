@@ -1,0 +1,31 @@
+@media screen and (max-width:576px) {
+    .slider-text, .border1, .fruit-fun{
+        display: none;
+        visibility: hidden;
+    }
+   
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .slider-text, .border1{
+        display: none;
+        visibility: hidden;
+    }
+    .fruit-fun{
+        display: none;
+        visibility: hidden;
+    }
+    .why-chose-pic{
+        margin:0 20%;
+    }
+    
+}
+@media screen and (min-width:992px) and (max-width:1600px){
+    .fruit-fun{
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top:100%;
+        left:50%;
+    }
+    
+}
